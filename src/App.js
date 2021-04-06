@@ -10,7 +10,7 @@ const AppWrapper = styled.div`
   position: relative;
   scroll-behavior: smooth;
 `;
-
+//배포
 function App() {
   const app = useRef(null);
   const [offset, setOffset] = useState({});
