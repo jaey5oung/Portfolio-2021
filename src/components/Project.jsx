@@ -20,23 +20,23 @@ const projectsList = [
   },
   {
     id: 2,
-    name: 'Slack',
-    description:
-      'React 에 Typescript 를 사용하는것이 주 목적인 개인 프로젝트입니다. SWR 을 활용하여 전역상태 관리를 하였고 쌍방향 소통을 하기위해 socket.io 사용하여 채팅을 구현하였습니다.',
-    techs: ['React', 'Typescript', 'Socket.io'],
-    link: 'https://github.com/jaey5oung/slack-project-2021',
-    thumnail: '/img/slack/slack.png',
-    imgs: ['/img/slack/slack.png'],
-  },
-  {
-    id: 3,
     name: 'KanbanBoard',
     description:
       'Trello 에서 제공하는 기술을 보고 Redux 와 드래그 기능을 활용한 개인 프로젝트입니다. State 관리를 주 목적으로 공부한 프로젝트입니다.',
     techs: ['React', 'Styled-Components'],
-    link: 'https://jinwoo6531.github.io/KanbanBoard/',
+    link: 'https://confident-bhaskara-4805fe.netlify.app/',
     thumnail: '/img/ToDo/ToDoList2.png',
-    imgs: ['/img/ToDo/ToDoList2.png'],
+    imgs: ['/img/ToDo/Tod.png','/img/ToDo/Tod1.png'],
+  },
+  {
+    id: 3,
+    name: 'Slack App',
+    description:
+      'React 에 Typescript 를 사용하는것이 주 목적인 개인 프로젝트입니다. SWR 을 활용하여 전역상태 관리를 하였고 쌍방향 소통을 하기위해 Socket.io 사용하여 채팅 및 접속여부를 구현한 프로젝트입니다.',
+    techs: ['React', 'Typescript', 'Socket.io'],
+    link: 'https://github.com/jaey5oung/slack-project-2021',
+    thumnail: '/img/slack/slack.png',
+    imgs: ['/img/slack/slack7.png','/img/slack/slack5.png','/img/slack/slack6.png'],
   },
 ];
 
@@ -53,8 +53,7 @@ const ProjectWrapper = styled.section`
     &::before {
       content: '';
       width: 150px;
-      height: 5px;
-      /* background: #fff; */
+      height: 5px;  
       position: absolute;
       left: 50%;
       bottom: -10px;
@@ -94,7 +93,7 @@ const ProjectWrapper = styled.section`
         }
       }
       .gridItem__img {
-        background-position: center center;
+        /* background-position: center center; */
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
