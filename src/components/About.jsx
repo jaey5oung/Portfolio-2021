@@ -429,11 +429,10 @@ function About({setOffset}) {
 
           <div className="about__tech --slidebar" ref={slideBar}>
             <div className="slider" ref={slider}>
-              <img src="/img/webpack.png" alt="" />
+              <img src="/img/vue.png" alt="" />              
               <img src="/img/node.png" alt="" />
-              <img src="/img/redux.png" alt="" />              
+              <img src="/img/webpack.png" alt="" />
               <img src="/img/typescript.png" alt="" />
-              <img src="/img/mysql.png" alt="" />
               <img src="/img/mongo.png" alt="" />
             </div>
           </div>
