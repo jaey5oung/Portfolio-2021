@@ -11,12 +11,7 @@ const projectsList = [
     link: 'https://github.com/jaey5oung/netflix-movie-project',
     techs: ['React', 'Node.js', 'MongoDB', 'Antd', 'Material-UI'],
     thumnail: '/img/nomflix/0.png',
-    imgs: [
-      '/img/nomflix/1.png',
-      '/img/nomflix/2.png',
-      '/img/nomflix/3.png',
-      '/img/nomflix/4.png',
-    ],
+    imgs: ['/img/nomflix/1.png', '/img/nomflix/2.png', '/img/nomflix/3.png', '/img/nomflix/4.png'],
   },
   {
     id: 2,
@@ -26,7 +21,7 @@ const projectsList = [
     techs: ['React', 'Styled-Components'],
     link: 'https://confident-bhaskara-4805fe.netlify.app/',
     thumnail: '/img/ToDo/ToDoList2.png',
-    imgs: ['/img/ToDo/Tod.png','/img/ToDo/Tod1.png'],
+    imgs: ['/img/ToDo/Tod.png', '/img/ToDo/Tod1.png'],
   },
   {
     id: 3,
@@ -36,7 +31,17 @@ const projectsList = [
     techs: ['React', 'Typescript', 'Socket.io'],
     link: 'https://github.com/jaey5oung/slack-project-2021',
     thumnail: '/img/slack/slack.png',
-    imgs: ['/img/slack/slack7.png','/img/slack/slack5.png','/img/slack/slack6.png'],
+    imgs: ['/img/slack/slack7.png', '/img/slack/slack5.png', '/img/slack/slack6.png'],
+  },
+  {
+    id: 4,
+    name: 'Weather App',
+    description:
+      'Vue 를 통해 세계날씨정보 API를 사용하여 온도에 따라 UI를 다르게 하는게 주 목적인 토이프로젝트입니다.',
+    techs: ['Vue', 'REST API'],
+    link: 'https://musing-kalam-47bcba.netlify.app/',
+    thumnail: 'img/weather/weather1.png',
+    imgs: ['img/weather/weather1.png', 'img/weather/weather2.png'],
   },
 ];
 
@@ -53,7 +58,7 @@ const ProjectWrapper = styled.section`
     &::before {
       content: '';
       width: 150px;
-      height: 5px;  
+      height: 5px;
       position: absolute;
       left: 50%;
       bottom: -10px;
@@ -68,16 +73,14 @@ const ProjectWrapper = styled.section`
   .project__gridWrapper {
     width: 1200px;
     display: flex;
-  border: 3px solid #2196f3;
-    
+    border: 3px solid #2196f3;
 
     .project__gridItem {
       position: relative;
-      width: 400px;
+      width: 300px;
       height: 400px;
       overflow: hidden;
-      padding:10px;
-    
+      padding: 10px;
 
       &:hover {
         .gridItem__img {
